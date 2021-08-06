@@ -3,8 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=msfcode&label=Profile%20views&color=0e75b6&style=flat" alt="msfcode" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=msfcode" alt="msfcode" /></a> </p>
-
 - 🔭 I’m currently working on **craken**
 
 - 🌱 I’m currently learning **exploit developpement and backdoors**
