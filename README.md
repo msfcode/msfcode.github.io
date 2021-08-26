@@ -3,9 +3,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=msfcode&label=Profile%20views&color=0e75b6&style=flat" alt="msfcode" /> </p>
 
-- 🔭 I’m currently working on **craken**
+- 🔭 I’m currently working on **mphish**
 
-- 🌱 I’m currently learning **exploit developpement and backdoors**
+- 🌱 I’m currently learning **exploit developpement**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
