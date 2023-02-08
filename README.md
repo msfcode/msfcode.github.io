@@ -1,5 +1,5 @@
 # 💫 About Me:
-~ Phishing Tool Developer (Python) <br><br>
+~ Security using Python<br><br>
 ~Open Source Intelligence (OSINT)<br>
 <br>
 <br>
