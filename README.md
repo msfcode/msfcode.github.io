@@ -1,5 +1,6 @@
 # 💫 About Me:
-~ Pratical Ethical Hacking Certified (PEH) <br> ~ Phishing Tool Developer (Python) <br><br> ~ Active_Directory (Internal Network Penetration Tester)<br>~ External Network Penetration Tester <br>~ OWASP Top 10 for Web App Penetration Testing<br>~ Open Source Intelligence (OSINT)<br>
+~ Phishing Tool Developer (Python) <br>
+~Open Source Intelligence (OSINT)<br>
 
 
 ## 🌐 Socials:
