@@ -1,6 +1,9 @@
 # 💫 About Me:
-~ Phishing Tool Developer (Python) <br>
+~ Phishing Tool Developer (Python) <br><br>
 ~Open Source Intelligence (OSINT)<br>
+<br>
+<br>
+~Interested in Network and Protocol security 
 
 
 ## 🌐 Socials:
