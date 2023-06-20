@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projet SAE 24</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="fonction.js"></script>
+</head>
+<body>
+  
+    <header>
+        <div class="navbar">
+            <ul>
+              <li>
+                <a >SAE24</a>
+              </li>
+              <li class="dropdown">
+                <a href="Site.html">Présentation</a>
+                
+              </li>
+              <li class="dropdown">
+                <a href="Projet.html">Projet</a>
+                
+              </li>
+              <li class="dropdown">
+                <a href="traitement.html">Traitement</a>
+                
+              </li>
+            </ul>
+          </div>
+        </header>
+
+        <p class="titre">I / Schéma</p>
+
+        <p class="ecrit_tache">
+          Ici, il y aura 1 pc Windows serveur qui s’occupera de l’authentification utilisateurs. Nous allons mettre en place un mécanisme qui permettra d’attribuer de manière dynamique une adresse IP privée à tous les équipements du réseau locale.<br>
+          Il y aura un Pc linux serveur qui va héberger notre site Web (qui utilisera apache2, Nginx). Nous allons installer d’autres services comme FTP, NFS, pour les partages de fichier. <br>
+          Il y aura enfin un pc linux qui s’occupera du serveur téléphonique (Astérix). <br>
+          
+          
+          Voici un plan physique de notre réseau (cette dernière est juste une représentation elle n’est pas configurer) : 
+          
+
+        </p>
+        <div class="container">
+        <img src="image/shema.png" alt="Diagramme de Gant">
+        </div>
+        <p class="ecrit_tache">
+        Les adresses de notre réseau locale sont des adresses privées, nous allons utilisé une translation par Nat qui sera configurer sur un routeur Cisco (intermédiaire entre le réseau public et le réseau privé) 
+      </p>
+      <br><br>
+
+        <p class="titre">II / Planification</p>
+
+        <p class="Gant">Voici la plannification que nous avons prévu sur les deux semaines de projet. Nous l'avons modélisé sous la forme d'un diagramme de Gant.</p>
+        <div class="container">
+        <img src="image/Gant (2).png" alt="Diagramme de Gant">
+        </div>
+
+        <p class="tache">Tâche 1 : Installation des systèmes d’exploitation</p>
+        <p class="ecrit_tache">
+            1) Installation de différent système exploitation sur 4 pc (Windows 10, Debian, Windows server)<br>
+            2) Configuration des adresses IP fixes <br>
+            3) Installation de service sur linux server (apache2, Nginx) <br>
+            4) Configuration des miroirs sur les postes linux <br>
+            5) Installation de PuTTY <br>
+        </p>
+        <p class="tache1">Tâche 2 : NFS et partage de fichier</p>
+        <p class="ecrit_tache">
+            1) Configurer le commutateur réseau en utilisant PuTTY. <br>
+            2) Configuration d’un server NFS ou Nfs Common<br>
+            3) Configuration d’un client NFS <br>
+            4) Installation de services FTP<br>
+
+        </p>
+        <p class="tache1">Tâche 3 : Windows server</p>
+        <p class="ecrit_tache">
+            1) Configurer le serveur DHCP pour attribuer automatiquement les adresses IP aux périphériques.<br>
+            2) Configurer le serveur DNS pour résoudre les noms de domaine.<br>
+            3) Authentification des utilisateurs avec Windows server 2022<br>
+            4) File Share sur windows server avec SMB<br>
+        </p>
+        <p class="tache1">Tâche 4 : Serveur Asterisk (Téléphonie) et site web</p>
+        <p class="ecrit_tache">
+            1) Configurer un serveur Asterisk. <br>
+            2) Vérification des taches d’avants, résoudre des problèmes, vérifier le plan s’il est respecté ou pas ...<br>
+        </p>
+        <p class="tache1">Tâche 5 : Sécurité</p>
+        <p class="ecrit_tache">
+        1) Mettre en place des politiques de sécurité pour protéger le réseau contre les menaces internes et 
+        externes. Nous allons plus essayer de se documente sur des attaques possibles comme du DNS 
+        spoofing et comment les résoudre. <br>
+        2) Démonstrations des attaques et résolutions. <br>
+        3) Possibilité de trouver autres attaques comme sur actives directory ciblant les utilisateurs. <br>
+        4) Mettre en place des politiques de sécurité, telles que les pares-feux et les listes de contrôle d'accès 
+        (ACL).<br>
+        5) Blocage de quelques sites internet (malveillants)<br>
+        </p>
+        <p class="tache1">Tâche 6 : Translation NAT </p>
+        <p class="ecrit_tache">
+        1) Nous allons travailler sur le routeur qui est intermédiaire : il faudra essayer de mettre en place un 
+        NAT dynamique c’est-à-dire nous allons définir une plage d’adresse publique qui sera attribuer de 
+        manière dynamique et automatique au adresses IP pives qui essayent d’accéder à l’extérieur.<br>
+        2) Tests et validation <br>
+        3) Effectuer des tests de connectivité et de performance pour s'assurer que le réseau fonctionne 
+        correctement.<br>
+        4) Vérifier la disponibilité des services réseau, tels que l'accès à Internet et l’accès au site depuis 
+        l’extérieur<br>
+        5) Valider que toutes les fonctionnalités requises ont été mises en place avec succès.<br>
+        6) Essayer de trouver de nouveaux services à mettre en place, agrandir le réseaux, ou améliorer des 
+        partis de notre réseaux.<br>
+      </p>
+   
+</body>
+</html>

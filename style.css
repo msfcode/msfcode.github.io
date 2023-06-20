@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: black;
+    color: #ffffff;
+    padding: 2%;
+  }
+
+  a{
+    color: #ffffff;
+    text-decoration:none;
+    font-size: 250%;
+   
+  }
+
+  p1{
+    font-size: 230%;
+    margin-left: 5%;
+  }
+
+
+  .navbar {
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  .navbar p1 {
+    color: grey;
+    font-size: 105%;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 200px;
+    z-index: 1;
+    margin-left: -3%;
+  }
+
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 200px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(254, 253, 253);
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    margin-top: 15%;
+    
+  }
+  
+  .navbar li:hover .dropdown-content {
+    display: block;
+  }
+
+  .centered-link {
+    display: block;
+    text-align: center;
+  }
+
+  p.titre{
+    font-size: 255%;
+    font-weight: 700;
+    background-color: lightgray;
+    color: #060000;
+    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  p.texte{
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+  }
+
+  img{
+    margin-left: 3%;
+    margin-top: -2%;
+    width: 90%;
+    height: auto;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+
+  p.tache{
+    font-weight: 600;
+    font-size: 120%;
+    margin-top: -20%;
+    margin-left: 3%;
+    text-decoration: underline;
+
+  }
+
+  p.tache1{
+    font-weight: 600;
+    font-size: 120%;
+    margin-left: 3%;
+    text-decoration: underline;
+
+  }
+
+p.Gant {
+    font-weight: 500;
+    font-size: 110%;
+    margin-left: 3%;
+    line-height: 1.5;
+}
+
+p.ecrit_tache{
+    font-weight: 500;
+    font-size: 110%;
+    margin-left: 3%;
+    line-height: 1.5;
+}
+
+.dropdown a:hover {
+  color: rgb(146, 146, 222);
+}
+
+p.vlan{
+  font-weight: 500;
+  font-size: 110%;
+  margin-left: 3%;
+  margin-right: 2%;
+  line-height: 1.5;
+}
+
+p.titrevlan{
+  font-weight: 500;
+  font-size: 150%;
+  margin-left: 3%;
+  line-height: 1.5;
+  text-decoration: underline;
+}
+
+p.commande{
+  background-color: gray;
+  padding: 1%;
+  display: inline-block;
+  color: white;
+  font-style: italic; 
+  font-weight: 500;
+  font-size: 110%;
+  margin-left: 3%;
+  line-height: 1.5;
+ 
+}
+p.soustitre {
+  font-weight: 300;
+  font-size: 125%;
+  margin-left: 6%;
+  line-height: 1.5;
+  text-decoration: underline;
+}
+p.sousoustitre {
+  font-weight: 300;
+  font-size: 117%;
+  margin-left: 9%;
+  line-height: 1.5;
+  text-decoration: underline;
+}
+.images {
+  width: 25%;
+  height: auto;
+  display: block;
+  margin: 2% auto;
+  margin-left: center;
+  cursor: pointer;
+  transition: width 0.3s ease; /* Ajout d'une transition fluide */
+}
+
+.agrandi {
+  width: 75%; /* Taille agrandie */
+}
+p.texte {
+  font-weight: 500;
+  font-size: 110%;
+  margin-left: 10%;
+  margin-right: 5%;
+  line-height: 1.5;
+  flex: 1;
+}
+
+.mise_en_page {
+  display: flex;
+  align-items: center;
+}
+img.telephoniepicture {
+  
+  width: 25%;
+  float: left;
+  margin-right: 1%;
+}
